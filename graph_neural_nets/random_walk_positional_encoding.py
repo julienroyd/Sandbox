@@ -51,7 +51,7 @@ else:
     D = np.diag(np.sum(A, axis=1))
 
     # The transition matrix is the inverse of the degree matrix times the adjacency matrix
-    # Since the degree matrix is a diagonal matrix, its diagonal is simply the inverse of the elements of the diagonal
+    # Since the degree matrix is a diagonal matrix, its inverse is simply the inverse of the elements of the diagonal
     T = np.linalg.inv(D) @ A
     print(f"Transition matrix:\n{T}")
 
