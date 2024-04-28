@@ -1,0 +1,42 @@
+09/03/2021 18:00:38 - INFO - MASTER - Device to be used: cpu
+09/03/2021 18:00:38 - INFO - MASTER - 
+Encoder:
+MLP(
+  (layers): ModuleList(
+    (0): Linear(in_features=784, out_features=512, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=512, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=128, bias=True)
+    (5): ReLU()
+    (6): Linear(in_features=128, out_features=20, bias=True)
+    (7): Identity()
+  )
+)
+09/03/2021 18:00:38 - INFO - MASTER - 
+Decoder:
+MLP(
+  (layers): ModuleList(
+    (0): Linear(in_features=10, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=512, bias=True)
+    (5): ReLU()
+    (6): Linear(in_features=512, out_features=784, bias=True)
+    (7): Identity()
+  )
+)
+09/03/2021 18:00:59 - INFO - MASTER - Epoch: 1, total numsteps: 938 (18.08s), total_loss: 279.52
+09/03/2021 18:01:01 - INFO - MASTER - Saving models to storage/ju4_85181f6-073eb4c_vae_mnist/experiment1/seed1
+09/03/2021 18:01:19 - INFO - MASTER - Epoch: 2, total numsteps: 1876 (19.99s), total_loss: 200.19
+09/03/2021 18:01:19 - INFO - MASTER - Saving plots for visualising reconstruction and generation performance.
+09/03/2021 18:01:23 - INFO - MASTER - Saving models to storage/ju4_85181f6-073eb4c_vae_mnist/experiment1/seed1
+09/03/2021 18:01:45 - INFO - MASTER - Epoch: 3, total numsteps: 2814 (25.15s), total_loss: 183.61
+09/03/2021 18:01:50 - INFO - MASTER - Saving models to storage/ju4_85181f6-073eb4c_vae_mnist/experiment1/seed1
+09/03/2021 18:02:07 - INFO - MASTER - Epoch: 4, total numsteps: 3752 (21.75s), total_loss: 174.46
+09/03/2021 18:02:07 - INFO - MASTER - Saving plots for visualising reconstruction and generation performance.
+09/03/2021 18:02:14 - INFO - MASTER - Saving models to storage/ju4_85181f6-073eb4c_vae_mnist/experiment1/seed1
+09/03/2021 18:02:30 - INFO - MASTER - Epoch: 5, total numsteps: 4690 (21.78s), total_loss: 168.20
+09/03/2021 18:02:38 - INFO - MASTER - Saving models to storage/ju4_85181f6-073eb4c_vae_mnist/experiment1/seed1
+09/03/2021 18:02:41 - INFO - MASTER - Saving models to storage/ju4_85181f6-073eb4c_vae_mnist/experiment1/seed1

@@ -1,0 +1,1 @@
+# TODO: Implement LogReg, LDA and QDA (check PGM class)

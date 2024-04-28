@@ -1,0 +1,351 @@
+09/03/2021 17:58:18 - INFO - MASTER - Device to be used: cpu
+09/03/2021 17:58:18 - INFO - MASTER - 
+Encoder:
+MLP(
+  (layers): ModuleList(
+    (0): Linear(in_features=2, out_features=512, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=512, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=128, bias=True)
+    (5): ReLU()
+    (6): Linear(in_features=128, out_features=20, bias=True)
+    (7): Identity()
+  )
+)
+09/03/2021 17:58:18 - INFO - MASTER - 
+Decoder:
+MLP(
+  (layers): ModuleList(
+    (0): Linear(in_features=10, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Linear(in_features=128, out_features=256, bias=True)
+    (3): ReLU()
+    (4): Linear(in_features=256, out_features=512, bias=True)
+    (5): ReLU()
+    (6): Linear(in_features=512, out_features=2, bias=True)
+    (7): Identity()
+  )
+)
+09/03/2021 17:58:20 - INFO - MASTER - Epoch: 1, total numsteps: 16 (0.17s), total_loss: 31.91
+09/03/2021 17:58:20 - INFO - MASTER - Epoch: 2, total numsteps: 32 (0.20s), total_loss: 9.74
+09/03/2021 17:58:20 - INFO - MASTER - Epoch: 3, total numsteps: 48 (0.23s), total_loss: 7.88
+09/03/2021 17:58:21 - INFO - MASTER - Epoch: 4, total numsteps: 64 (0.15s), total_loss: 7.47
+09/03/2021 17:58:21 - INFO - MASTER - Epoch: 5, total numsteps: 80 (0.15s), total_loss: 6.92
+09/03/2021 17:58:21 - INFO - MASTER - Epoch: 6, total numsteps: 96 (0.15s), total_loss: 6.60
+09/03/2021 17:58:21 - INFO - MASTER - Epoch: 7, total numsteps: 112 (0.14s), total_loss: 6.34
+09/03/2021 17:58:21 - INFO - MASTER - Epoch: 8, total numsteps: 128 (0.13s), total_loss: 5.95
+09/03/2021 17:58:21 - INFO - MASTER - Epoch: 9, total numsteps: 144 (0.13s), total_loss: 5.80
+09/03/2021 17:58:21 - INFO - MASTER - Epoch: 10, total numsteps: 160 (0.13s), total_loss: 5.71
+09/03/2021 17:58:21 - INFO - MASTER - Epoch: 11, total numsteps: 176 (0.12s), total_loss: 5.45
+09/03/2021 17:58:22 - INFO - MASTER - Epoch: 12, total numsteps: 192 (0.12s), total_loss: 5.43
+09/03/2021 17:58:22 - INFO - MASTER - Epoch: 13, total numsteps: 208 (0.23s), total_loss: 5.42
+09/03/2021 17:58:22 - INFO - MASTER - Epoch: 14, total numsteps: 224 (0.20s), total_loss: 5.23
+09/03/2021 17:58:22 - INFO - MASTER - Epoch: 15, total numsteps: 240 (0.15s), total_loss: 5.18
+09/03/2021 17:58:22 - INFO - MASTER - Epoch: 16, total numsteps: 256 (0.15s), total_loss: 5.36
+09/03/2021 17:58:23 - INFO - MASTER - Epoch: 17, total numsteps: 272 (0.23s), total_loss: 5.07
+09/03/2021 17:58:23 - INFO - MASTER - Epoch: 18, total numsteps: 288 (0.12s), total_loss: 5.04
+09/03/2021 17:58:23 - INFO - MASTER - Epoch: 19, total numsteps: 304 (0.12s), total_loss: 5.10
+09/03/2021 17:58:23 - INFO - MASTER - Epoch: 20, total numsteps: 320 (0.51s), total_loss: 5.12
+09/03/2021 17:58:24 - INFO - MASTER - Epoch: 21, total numsteps: 336 (0.38s), total_loss: 5.04
+09/03/2021 17:58:24 - INFO - MASTER - Epoch: 22, total numsteps: 352 (0.21s), total_loss: 4.83
+09/03/2021 17:58:24 - INFO - MASTER - Epoch: 23, total numsteps: 368 (0.28s), total_loss: 4.79
+09/03/2021 17:58:24 - INFO - MASTER - Epoch: 24, total numsteps: 384 (0.12s), total_loss: 5.00
+09/03/2021 17:58:24 - INFO - MASTER - Epoch: 25, total numsteps: 400 (0.11s), total_loss: 4.85
+09/03/2021 17:58:25 - INFO - MASTER - Epoch: 26, total numsteps: 416 (0.11s), total_loss: 5.02
+09/03/2021 17:58:25 - INFO - MASTER - Epoch: 27, total numsteps: 432 (0.09s), total_loss: 4.90
+09/03/2021 17:58:25 - INFO - MASTER - Epoch: 28, total numsteps: 448 (0.10s), total_loss: 4.85
+09/03/2021 17:58:25 - INFO - MASTER - Epoch: 29, total numsteps: 464 (0.10s), total_loss: 4.88
+09/03/2021 17:58:25 - INFO - MASTER - Epoch: 30, total numsteps: 480 (0.09s), total_loss: 4.82
+09/03/2021 17:58:25 - INFO - MASTER - Epoch: 31, total numsteps: 496 (0.09s), total_loss: 4.91
+09/03/2021 17:58:25 - INFO - MASTER - Epoch: 32, total numsteps: 512 (0.08s), total_loss: 4.88
+09/03/2021 17:58:25 - INFO - MASTER - Epoch: 33, total numsteps: 528 (0.08s), total_loss: 4.95
+09/03/2021 17:58:25 - INFO - MASTER - Epoch: 34, total numsteps: 544 (0.08s), total_loss: 4.82
+09/03/2021 17:58:25 - INFO - MASTER - Epoch: 35, total numsteps: 560 (0.09s), total_loss: 4.69
+09/03/2021 17:58:25 - INFO - MASTER - Epoch: 36, total numsteps: 576 (0.08s), total_loss: 4.79
+09/03/2021 17:58:26 - INFO - MASTER - Epoch: 37, total numsteps: 592 (0.08s), total_loss: 4.67
+09/03/2021 17:58:26 - INFO - MASTER - Epoch: 38, total numsteps: 608 (0.09s), total_loss: 4.70
+09/03/2021 17:58:26 - INFO - MASTER - Epoch: 39, total numsteps: 624 (0.09s), total_loss: 4.76
+09/03/2021 17:58:26 - INFO - MASTER - Epoch: 40, total numsteps: 640 (0.09s), total_loss: 4.67
+09/03/2021 17:58:26 - INFO - MASTER - Epoch: 41, total numsteps: 656 (0.09s), total_loss: 4.75
+09/03/2021 17:58:26 - INFO - MASTER - Epoch: 42, total numsteps: 672 (0.09s), total_loss: 4.69
+09/03/2021 17:58:26 - INFO - MASTER - Epoch: 43, total numsteps: 688 (0.09s), total_loss: 4.45
+09/03/2021 17:58:26 - INFO - MASTER - Epoch: 44, total numsteps: 704 (0.10s), total_loss: 4.49
+09/03/2021 17:58:26 - INFO - MASTER - Epoch: 45, total numsteps: 720 (0.09s), total_loss: 4.70
+09/03/2021 17:58:26 - INFO - MASTER - Epoch: 46, total numsteps: 736 (0.09s), total_loss: 4.52
+09/03/2021 17:58:26 - INFO - MASTER - Epoch: 47, total numsteps: 752 (0.10s), total_loss: 4.52
+09/03/2021 17:58:27 - INFO - MASTER - Epoch: 48, total numsteps: 768 (0.10s), total_loss: 4.54
+09/03/2021 17:58:27 - INFO - MASTER - Epoch: 49, total numsteps: 784 (0.10s), total_loss: 4.67
+09/03/2021 17:58:27 - INFO - MASTER - Epoch: 50, total numsteps: 800 (0.10s), total_loss: 4.60
+09/03/2021 17:58:27 - INFO - MASTER - Epoch: 51, total numsteps: 816 (0.10s), total_loss: 4.73
+09/03/2021 17:58:27 - INFO - MASTER - Epoch: 52, total numsteps: 832 (0.10s), total_loss: 4.88
+09/03/2021 17:58:27 - INFO - MASTER - Epoch: 53, total numsteps: 848 (0.11s), total_loss: 4.62
+09/03/2021 17:58:27 - INFO - MASTER - Epoch: 54, total numsteps: 864 (0.10s), total_loss: 4.38
+09/03/2021 17:58:27 - INFO - MASTER - Epoch: 55, total numsteps: 880 (0.10s), total_loss: 4.72
+09/03/2021 17:58:27 - INFO - MASTER - Epoch: 56, total numsteps: 896 (0.12s), total_loss: 4.45
+09/03/2021 17:58:27 - INFO - MASTER - Epoch: 57, total numsteps: 912 (0.12s), total_loss: 4.56
+09/03/2021 17:58:28 - INFO - MASTER - Epoch: 58, total numsteps: 928 (0.10s), total_loss: 4.73
+09/03/2021 17:58:28 - INFO - MASTER - Epoch: 59, total numsteps: 944 (0.10s), total_loss: 4.82
+09/03/2021 17:58:28 - INFO - MASTER - Epoch: 60, total numsteps: 960 (0.10s), total_loss: 4.45
+09/03/2021 17:58:28 - INFO - MASTER - Epoch: 61, total numsteps: 976 (0.11s), total_loss: 4.28
+09/03/2021 17:58:28 - INFO - MASTER - Epoch: 62, total numsteps: 992 (0.12s), total_loss: 4.34
+09/03/2021 17:58:29 - INFO - MASTER - Saving models to storage/ju3_85181f6-073eb4c_vae_gmix_3/experiment1/seed1
+09/03/2021 17:58:29 - INFO - MASTER - Epoch: 63, total numsteps: 1008 (0.95s), total_loss: 4.37
+09/03/2021 17:58:29 - INFO - MASTER - Saving plots for visualising reconstruction and generation performance.
+09/03/2021 17:58:29 - INFO - MASTER - Epoch: 64, total numsteps: 1024 (0.10s), total_loss: 4.32
+09/03/2021 17:58:29 - INFO - MASTER - Epoch: 65, total numsteps: 1040 (0.11s), total_loss: 4.44
+09/03/2021 17:58:30 - INFO - MASTER - Epoch: 66, total numsteps: 1056 (0.14s), total_loss: 4.40
+09/03/2021 17:58:30 - INFO - MASTER - Epoch: 67, total numsteps: 1072 (0.33s), total_loss: 4.27
+09/03/2021 17:58:30 - INFO - MASTER - Epoch: 68, total numsteps: 1088 (0.23s), total_loss: 4.29
+09/03/2021 17:58:30 - INFO - MASTER - Epoch: 69, total numsteps: 1104 (0.14s), total_loss: 4.40
+09/03/2021 17:58:30 - INFO - MASTER - Epoch: 70, total numsteps: 1120 (0.15s), total_loss: 4.33
+09/03/2021 17:58:31 - INFO - MASTER - Epoch: 71, total numsteps: 1136 (0.14s), total_loss: 4.47
+09/03/2021 17:58:31 - INFO - MASTER - Epoch: 72, total numsteps: 1152 (0.14s), total_loss: 4.51
+09/03/2021 17:58:31 - INFO - MASTER - Epoch: 73, total numsteps: 1168 (0.33s), total_loss: 4.32
+09/03/2021 17:58:31 - INFO - MASTER - Epoch: 74, total numsteps: 1184 (0.23s), total_loss: 4.25
+09/03/2021 17:58:31 - INFO - MASTER - Epoch: 75, total numsteps: 1200 (0.15s), total_loss: 4.42
+09/03/2021 17:58:32 - INFO - MASTER - Epoch: 76, total numsteps: 1216 (0.19s), total_loss: 4.43
+09/03/2021 17:58:32 - INFO - MASTER - Epoch: 77, total numsteps: 1232 (0.29s), total_loss: 4.35
+09/03/2021 17:58:32 - INFO - MASTER - Epoch: 78, total numsteps: 1248 (0.13s), total_loss: 4.21
+09/03/2021 17:58:32 - INFO - MASTER - Epoch: 79, total numsteps: 1264 (0.14s), total_loss: 4.39
+09/03/2021 17:58:32 - INFO - MASTER - Epoch: 80, total numsteps: 1280 (0.13s), total_loss: 4.46
+09/03/2021 17:58:32 - INFO - MASTER - Epoch: 81, total numsteps: 1296 (0.12s), total_loss: 4.13
+09/03/2021 17:58:33 - INFO - MASTER - Epoch: 82, total numsteps: 1312 (0.17s), total_loss: 4.27
+09/03/2021 17:58:33 - INFO - MASTER - Epoch: 83, total numsteps: 1328 (0.16s), total_loss: 4.20
+09/03/2021 17:58:33 - INFO - MASTER - Epoch: 84, total numsteps: 1344 (0.15s), total_loss: 4.07
+09/03/2021 17:58:33 - INFO - MASTER - Epoch: 85, total numsteps: 1360 (0.23s), total_loss: 4.21
+09/03/2021 17:58:33 - INFO - MASTER - Epoch: 86, total numsteps: 1376 (0.28s), total_loss: 4.08
+09/03/2021 17:58:34 - INFO - MASTER - Epoch: 87, total numsteps: 1392 (0.60s), total_loss: 4.01
+09/03/2021 17:58:34 - INFO - MASTER - Epoch: 88, total numsteps: 1408 (0.13s), total_loss: 4.07
+09/03/2021 17:58:34 - INFO - MASTER - Epoch: 89, total numsteps: 1424 (0.12s), total_loss: 4.17
+09/03/2021 17:58:34 - INFO - MASTER - Epoch: 90, total numsteps: 1440 (0.11s), total_loss: 4.01
+09/03/2021 17:58:34 - INFO - MASTER - Epoch: 91, total numsteps: 1456 (0.10s), total_loss: 4.02
+09/03/2021 17:58:35 - INFO - MASTER - Epoch: 92, total numsteps: 1472 (0.10s), total_loss: 4.20
+09/03/2021 17:58:35 - INFO - MASTER - Epoch: 93, total numsteps: 1488 (0.10s), total_loss: 4.14
+09/03/2021 17:58:35 - INFO - MASTER - Epoch: 94, total numsteps: 1504 (0.10s), total_loss: 3.97
+09/03/2021 17:58:35 - INFO - MASTER - Epoch: 95, total numsteps: 1520 (0.09s), total_loss: 4.22
+09/03/2021 17:58:35 - INFO - MASTER - Epoch: 96, total numsteps: 1536 (0.10s), total_loss: 4.09
+09/03/2021 17:58:35 - INFO - MASTER - Epoch: 97, total numsteps: 1552 (0.10s), total_loss: 4.02
+09/03/2021 17:58:35 - INFO - MASTER - Epoch: 98, total numsteps: 1568 (0.11s), total_loss: 3.98
+09/03/2021 17:58:35 - INFO - MASTER - Epoch: 99, total numsteps: 1584 (0.12s), total_loss: 4.04
+09/03/2021 17:58:35 - INFO - MASTER - Epoch: 100, total numsteps: 1600 (0.10s), total_loss: 4.51
+09/03/2021 17:58:35 - INFO - MASTER - Epoch: 101, total numsteps: 1616 (0.10s), total_loss: 4.05
+09/03/2021 17:58:36 - INFO - MASTER - Epoch: 102, total numsteps: 1632 (0.10s), total_loss: 4.11
+09/03/2021 17:58:36 - INFO - MASTER - Epoch: 103, total numsteps: 1648 (0.10s), total_loss: 4.10
+09/03/2021 17:58:36 - INFO - MASTER - Epoch: 104, total numsteps: 1664 (0.11s), total_loss: 4.08
+09/03/2021 17:58:36 - INFO - MASTER - Epoch: 105, total numsteps: 1680 (0.10s), total_loss: 3.92
+09/03/2021 17:58:36 - INFO - MASTER - Epoch: 106, total numsteps: 1696 (0.11s), total_loss: 3.96
+09/03/2021 17:58:36 - INFO - MASTER - Epoch: 107, total numsteps: 1712 (0.10s), total_loss: 3.96
+09/03/2021 17:58:36 - INFO - MASTER - Epoch: 108, total numsteps: 1728 (0.13s), total_loss: 4.07
+09/03/2021 17:58:36 - INFO - MASTER - Epoch: 109, total numsteps: 1744 (0.10s), total_loss: 4.02
+09/03/2021 17:58:36 - INFO - MASTER - Epoch: 110, total numsteps: 1760 (0.10s), total_loss: 4.18
+09/03/2021 17:58:37 - INFO - MASTER - Epoch: 111, total numsteps: 1776 (0.10s), total_loss: 4.23
+09/03/2021 17:58:37 - INFO - MASTER - Epoch: 112, total numsteps: 1792 (0.10s), total_loss: 4.40
+09/03/2021 17:58:37 - INFO - MASTER - Epoch: 113, total numsteps: 1808 (0.10s), total_loss: 4.21
+09/03/2021 17:58:37 - INFO - MASTER - Epoch: 114, total numsteps: 1824 (0.11s), total_loss: 4.14
+09/03/2021 17:58:37 - INFO - MASTER - Epoch: 115, total numsteps: 1840 (0.11s), total_loss: 4.17
+09/03/2021 17:58:37 - INFO - MASTER - Epoch: 116, total numsteps: 1856 (0.10s), total_loss: 4.18
+09/03/2021 17:58:37 - INFO - MASTER - Epoch: 117, total numsteps: 1872 (0.11s), total_loss: 4.07
+09/03/2021 17:58:37 - INFO - MASTER - Epoch: 118, total numsteps: 1888 (0.12s), total_loss: 3.98
+09/03/2021 17:58:37 - INFO - MASTER - Epoch: 119, total numsteps: 1904 (0.11s), total_loss: 4.16
+09/03/2021 17:58:37 - INFO - MASTER - Epoch: 120, total numsteps: 1920 (0.10s), total_loss: 3.89
+09/03/2021 17:58:38 - INFO - MASTER - Epoch: 121, total numsteps: 1936 (0.10s), total_loss: 3.94
+09/03/2021 17:58:38 - INFO - MASTER - Epoch: 122, total numsteps: 1952 (0.11s), total_loss: 4.00
+09/03/2021 17:58:38 - INFO - MASTER - Epoch: 123, total numsteps: 1968 (0.13s), total_loss: 3.99
+09/03/2021 17:58:38 - INFO - MASTER - Epoch: 124, total numsteps: 1984 (0.11s), total_loss: 3.94
+09/03/2021 17:58:39 - INFO - MASTER - Saving models to storage/ju3_85181f6-073eb4c_vae_gmix_3/experiment1/seed1
+09/03/2021 17:58:39 - INFO - MASTER - Epoch: 125, total numsteps: 2000 (0.90s), total_loss: 4.05
+09/03/2021 17:58:39 - INFO - MASTER - Epoch: 126, total numsteps: 2016 (0.10s), total_loss: 3.83
+09/03/2021 17:58:39 - INFO - MASTER - Saving plots for visualising reconstruction and generation performance.
+09/03/2021 17:58:39 - INFO - MASTER - Epoch: 127, total numsteps: 2032 (0.10s), total_loss: 4.10
+09/03/2021 17:58:39 - INFO - MASTER - Epoch: 128, total numsteps: 2048 (0.10s), total_loss: 4.11
+09/03/2021 17:58:39 - INFO - MASTER - Epoch: 129, total numsteps: 2064 (0.10s), total_loss: 3.88
+09/03/2021 17:58:40 - INFO - MASTER - Epoch: 130, total numsteps: 2080 (0.10s), total_loss: 4.00
+09/03/2021 17:58:40 - INFO - MASTER - Epoch: 131, total numsteps: 2096 (0.11s), total_loss: 4.18
+09/03/2021 17:58:40 - INFO - MASTER - Epoch: 132, total numsteps: 2112 (0.12s), total_loss: 4.37
+09/03/2021 17:58:40 - INFO - MASTER - Epoch: 133, total numsteps: 2128 (0.10s), total_loss: 4.00
+09/03/2021 17:58:40 - INFO - MASTER - Epoch: 134, total numsteps: 2144 (0.10s), total_loss: 4.25
+09/03/2021 17:58:40 - INFO - MASTER - Epoch: 135, total numsteps: 2160 (0.10s), total_loss: 4.10
+09/03/2021 17:58:40 - INFO - MASTER - Epoch: 136, total numsteps: 2176 (0.10s), total_loss: 3.98
+09/03/2021 17:58:40 - INFO - MASTER - Epoch: 137, total numsteps: 2192 (0.10s), total_loss: 4.16
+09/03/2021 17:58:40 - INFO - MASTER - Epoch: 138, total numsteps: 2208 (0.11s), total_loss: 3.94
+09/03/2021 17:58:40 - INFO - MASTER - Epoch: 139, total numsteps: 2224 (0.10s), total_loss: 4.09
+09/03/2021 17:58:41 - INFO - MASTER - Epoch: 140, total numsteps: 2240 (0.12s), total_loss: 3.88
+09/03/2021 17:58:41 - INFO - MASTER - Epoch: 141, total numsteps: 2256 (0.12s), total_loss: 3.86
+09/03/2021 17:58:41 - INFO - MASTER - Epoch: 142, total numsteps: 2272 (0.11s), total_loss: 3.82
+09/03/2021 17:58:41 - INFO - MASTER - Epoch: 143, total numsteps: 2288 (0.10s), total_loss: 3.95
+09/03/2021 17:58:41 - INFO - MASTER - Epoch: 144, total numsteps: 2304 (0.11s), total_loss: 3.97
+09/03/2021 17:58:41 - INFO - MASTER - Epoch: 145, total numsteps: 2320 (0.12s), total_loss: 4.20
+09/03/2021 17:58:41 - INFO - MASTER - Epoch: 146, total numsteps: 2336 (0.11s), total_loss: 3.89
+09/03/2021 17:58:41 - INFO - MASTER - Epoch: 147, total numsteps: 2352 (0.10s), total_loss: 3.89
+09/03/2021 17:58:41 - INFO - MASTER - Epoch: 148, total numsteps: 2368 (0.10s), total_loss: 3.98
+09/03/2021 17:58:42 - INFO - MASTER - Epoch: 149, total numsteps: 2384 (0.13s), total_loss: 3.91
+09/03/2021 17:58:42 - INFO - MASTER - Epoch: 150, total numsteps: 2400 (0.13s), total_loss: 3.87
+09/03/2021 17:58:42 - INFO - MASTER - Epoch: 151, total numsteps: 2416 (0.15s), total_loss: 4.10
+09/03/2021 17:58:42 - INFO - MASTER - Epoch: 152, total numsteps: 2432 (0.14s), total_loss: 3.79
+09/03/2021 17:58:42 - INFO - MASTER - Epoch: 153, total numsteps: 2448 (0.14s), total_loss: 4.10
+09/03/2021 17:58:42 - INFO - MASTER - Epoch: 154, total numsteps: 2464 (0.10s), total_loss: 3.98
+09/03/2021 17:58:42 - INFO - MASTER - Epoch: 155, total numsteps: 2480 (0.11s), total_loss: 3.86
+09/03/2021 17:58:42 - INFO - MASTER - Epoch: 156, total numsteps: 2496 (0.11s), total_loss: 3.90
+09/03/2021 17:58:43 - INFO - MASTER - Epoch: 157, total numsteps: 2512 (0.12s), total_loss: 4.04
+09/03/2021 17:58:43 - INFO - MASTER - Epoch: 158, total numsteps: 2528 (0.12s), total_loss: 3.84
+09/03/2021 17:58:43 - INFO - MASTER - Epoch: 159, total numsteps: 2544 (0.12s), total_loss: 3.91
+09/03/2021 17:58:43 - INFO - MASTER - Epoch: 160, total numsteps: 2560 (0.12s), total_loss: 3.83
+09/03/2021 17:58:43 - INFO - MASTER - Epoch: 161, total numsteps: 2576 (0.11s), total_loss: 3.99
+09/03/2021 17:58:43 - INFO - MASTER - Epoch: 162, total numsteps: 2592 (0.12s), total_loss: 3.92
+09/03/2021 17:58:43 - INFO - MASTER - Epoch: 163, total numsteps: 2608 (0.11s), total_loss: 4.16
+09/03/2021 17:58:43 - INFO - MASTER - Epoch: 164, total numsteps: 2624 (0.10s), total_loss: 3.92
+09/03/2021 17:58:44 - INFO - MASTER - Epoch: 165, total numsteps: 2640 (0.10s), total_loss: 3.89
+09/03/2021 17:58:44 - INFO - MASTER - Epoch: 166, total numsteps: 2656 (0.12s), total_loss: 3.87
+09/03/2021 17:58:44 - INFO - MASTER - Epoch: 167, total numsteps: 2672 (0.30s), total_loss: 3.90
+09/03/2021 17:58:44 - INFO - MASTER - Epoch: 168, total numsteps: 2688 (0.17s), total_loss: 3.84
+09/03/2021 17:58:44 - INFO - MASTER - Epoch: 169, total numsteps: 2704 (0.16s), total_loss: 3.98
+09/03/2021 17:58:44 - INFO - MASTER - Epoch: 170, total numsteps: 2720 (0.16s), total_loss: 3.93
+09/03/2021 17:58:45 - INFO - MASTER - Epoch: 171, total numsteps: 2736 (0.14s), total_loss: 4.27
+09/03/2021 17:58:45 - INFO - MASTER - Epoch: 172, total numsteps: 2752 (0.16s), total_loss: 4.18
+09/03/2021 17:58:45 - INFO - MASTER - Epoch: 173, total numsteps: 2768 (0.17s), total_loss: 4.10
+09/03/2021 17:58:45 - INFO - MASTER - Epoch: 174, total numsteps: 2784 (0.18s), total_loss: 3.98
+09/03/2021 17:58:45 - INFO - MASTER - Epoch: 175, total numsteps: 2800 (0.17s), total_loss: 3.85
+09/03/2021 17:58:45 - INFO - MASTER - Epoch: 176, total numsteps: 2816 (0.17s), total_loss: 3.82
+09/03/2021 17:58:46 - INFO - MASTER - Epoch: 177, total numsteps: 2832 (0.18s), total_loss: 3.63
+09/03/2021 17:58:46 - INFO - MASTER - Epoch: 178, total numsteps: 2848 (0.15s), total_loss: 3.88
+09/03/2021 17:58:46 - INFO - MASTER - Epoch: 179, total numsteps: 2864 (0.13s), total_loss: 3.76
+09/03/2021 17:58:47 - INFO - MASTER - Epoch: 180, total numsteps: 2880 (0.66s), total_loss: 3.78
+09/03/2021 17:58:47 - INFO - MASTER - Epoch: 181, total numsteps: 2896 (0.42s), total_loss: 4.02
+09/03/2021 17:58:47 - INFO - MASTER - Epoch: 182, total numsteps: 2912 (0.16s), total_loss: 4.07
+09/03/2021 17:58:47 - INFO - MASTER - Epoch: 183, total numsteps: 2928 (0.17s), total_loss: 3.86
+09/03/2021 17:58:48 - INFO - MASTER - Epoch: 184, total numsteps: 2944 (0.14s), total_loss: 3.80
+09/03/2021 17:58:48 - INFO - MASTER - Epoch: 185, total numsteps: 2960 (0.14s), total_loss: 3.90
+09/03/2021 17:58:48 - INFO - MASTER - Epoch: 186, total numsteps: 2976 (0.13s), total_loss: 4.00
+09/03/2021 17:58:48 - INFO - MASTER - Epoch: 187, total numsteps: 2992 (0.12s), total_loss: 3.93
+09/03/2021 17:58:49 - INFO - MASTER - Saving models to storage/ju3_85181f6-073eb4c_vae_gmix_3/experiment1/seed1
+09/03/2021 17:58:50 - INFO - MASTER - Epoch: 188, total numsteps: 3008 (2.17s), total_loss: 3.72
+09/03/2021 17:58:50 - INFO - MASTER - Epoch: 189, total numsteps: 3024 (0.13s), total_loss: 3.86
+09/03/2021 17:58:50 - INFO - MASTER - Saving plots for visualising reconstruction and generation performance.
+09/03/2021 17:58:51 - INFO - MASTER - Epoch: 190, total numsteps: 3040 (0.11s), total_loss: 3.82
+09/03/2021 17:58:51 - INFO - MASTER - Epoch: 191, total numsteps: 3056 (0.11s), total_loss: 3.86
+09/03/2021 17:58:51 - INFO - MASTER - Epoch: 192, total numsteps: 3072 (0.11s), total_loss: 4.01
+09/03/2021 17:58:51 - INFO - MASTER - Epoch: 193, total numsteps: 3088 (0.12s), total_loss: 3.94
+09/03/2021 17:58:51 - INFO - MASTER - Epoch: 194, total numsteps: 3104 (0.10s), total_loss: 4.01
+09/03/2021 17:58:51 - INFO - MASTER - Epoch: 195, total numsteps: 3120 (0.12s), total_loss: 3.77
+09/03/2021 17:58:51 - INFO - MASTER - Epoch: 196, total numsteps: 3136 (0.11s), total_loss: 4.12
+09/03/2021 17:58:52 - INFO - MASTER - Epoch: 197, total numsteps: 3152 (0.11s), total_loss: 4.32
+09/03/2021 17:58:52 - INFO - MASTER - Epoch: 198, total numsteps: 3168 (0.10s), total_loss: 3.95
+09/03/2021 17:58:52 - INFO - MASTER - Epoch: 199, total numsteps: 3184 (0.10s), total_loss: 3.85
+09/03/2021 17:58:52 - INFO - MASTER - Epoch: 200, total numsteps: 3200 (0.10s), total_loss: 4.01
+09/03/2021 17:58:52 - INFO - MASTER - Epoch: 201, total numsteps: 3216 (0.10s), total_loss: 3.98
+09/03/2021 17:58:52 - INFO - MASTER - Epoch: 202, total numsteps: 3232 (0.12s), total_loss: 4.02
+09/03/2021 17:58:52 - INFO - MASTER - Epoch: 203, total numsteps: 3248 (0.14s), total_loss: 4.09
+09/03/2021 17:58:52 - INFO - MASTER - Epoch: 204, total numsteps: 3264 (0.16s), total_loss: 4.10
+09/03/2021 17:58:53 - INFO - MASTER - Epoch: 205, total numsteps: 3280 (0.16s), total_loss: 3.96
+09/03/2021 17:58:53 - INFO - MASTER - Epoch: 206, total numsteps: 3296 (0.12s), total_loss: 4.02
+09/03/2021 17:58:53 - INFO - MASTER - Epoch: 207, total numsteps: 3312 (0.12s), total_loss: 4.01
+09/03/2021 17:58:53 - INFO - MASTER - Epoch: 208, total numsteps: 3328 (0.12s), total_loss: 3.87
+09/03/2021 17:58:53 - INFO - MASTER - Epoch: 209, total numsteps: 3344 (0.12s), total_loss: 3.93
+09/03/2021 17:58:53 - INFO - MASTER - Epoch: 210, total numsteps: 3360 (0.12s), total_loss: 4.06
+09/03/2021 17:58:53 - INFO - MASTER - Epoch: 211, total numsteps: 3376 (0.12s), total_loss: 3.89
+09/03/2021 17:58:53 - INFO - MASTER - Epoch: 212, total numsteps: 3392 (0.11s), total_loss: 4.11
+09/03/2021 17:58:54 - INFO - MASTER - Epoch: 213, total numsteps: 3408 (0.15s), total_loss: 4.32
+09/03/2021 17:58:54 - INFO - MASTER - Epoch: 214, total numsteps: 3424 (0.11s), total_loss: 3.97
+09/03/2021 17:58:54 - INFO - MASTER - Epoch: 215, total numsteps: 3440 (0.13s), total_loss: 3.90
+09/03/2021 17:58:54 - INFO - MASTER - Epoch: 216, total numsteps: 3456 (0.15s), total_loss: 3.93
+09/03/2021 17:58:54 - INFO - MASTER - Epoch: 217, total numsteps: 3472 (0.15s), total_loss: 3.94
+09/03/2021 17:58:54 - INFO - MASTER - Epoch: 218, total numsteps: 3488 (0.14s), total_loss: 3.82
+09/03/2021 17:58:54 - INFO - MASTER - Epoch: 219, total numsteps: 3504 (0.13s), total_loss: 3.98
+09/03/2021 17:58:54 - INFO - MASTER - Epoch: 220, total numsteps: 3520 (0.12s), total_loss: 3.98
+09/03/2021 17:58:55 - INFO - MASTER - Epoch: 221, total numsteps: 3536 (0.14s), total_loss: 3.83
+09/03/2021 17:58:55 - INFO - MASTER - Epoch: 222, total numsteps: 3552 (0.14s), total_loss: 4.00
+09/03/2021 17:58:55 - INFO - MASTER - Epoch: 223, total numsteps: 3568 (0.15s), total_loss: 3.93
+09/03/2021 17:58:55 - INFO - MASTER - Epoch: 224, total numsteps: 3584 (0.15s), total_loss: 3.77
+09/03/2021 17:58:55 - INFO - MASTER - Epoch: 225, total numsteps: 3600 (0.14s), total_loss: 3.72
+09/03/2021 17:58:55 - INFO - MASTER - Epoch: 226, total numsteps: 3616 (0.14s), total_loss: 3.79
+09/03/2021 17:58:55 - INFO - MASTER - Epoch: 227, total numsteps: 3632 (0.14s), total_loss: 4.03
+09/03/2021 17:58:56 - INFO - MASTER - Epoch: 228, total numsteps: 3648 (0.14s), total_loss: 3.87
+09/03/2021 17:58:56 - INFO - MASTER - Epoch: 229, total numsteps: 3664 (0.14s), total_loss: 3.81
+09/03/2021 17:58:56 - INFO - MASTER - Epoch: 230, total numsteps: 3680 (0.14s), total_loss: 3.67
+09/03/2021 17:58:56 - INFO - MASTER - Epoch: 231, total numsteps: 3696 (0.15s), total_loss: 3.92
+09/03/2021 17:58:56 - INFO - MASTER - Epoch: 232, total numsteps: 3712 (0.14s), total_loss: 4.02
+09/03/2021 17:58:56 - INFO - MASTER - Epoch: 233, total numsteps: 3728 (0.14s), total_loss: 3.88
+09/03/2021 17:58:56 - INFO - MASTER - Epoch: 234, total numsteps: 3744 (0.15s), total_loss: 3.76
+09/03/2021 17:58:57 - INFO - MASTER - Epoch: 235, total numsteps: 3760 (0.16s), total_loss: 3.85
+09/03/2021 17:58:57 - INFO - MASTER - Epoch: 236, total numsteps: 3776 (0.16s), total_loss: 3.83
+09/03/2021 17:58:57 - INFO - MASTER - Epoch: 237, total numsteps: 3792 (0.14s), total_loss: 4.20
+09/03/2021 17:58:57 - INFO - MASTER - Epoch: 238, total numsteps: 3808 (0.14s), total_loss: 4.01
+09/03/2021 17:58:57 - INFO - MASTER - Epoch: 239, total numsteps: 3824 (0.15s), total_loss: 3.99
+09/03/2021 17:58:57 - INFO - MASTER - Epoch: 240, total numsteps: 3840 (0.14s), total_loss: 3.85
+09/03/2021 17:58:58 - INFO - MASTER - Epoch: 241, total numsteps: 3856 (0.14s), total_loss: 3.93
+09/03/2021 17:58:58 - INFO - MASTER - Epoch: 242, total numsteps: 3872 (0.15s), total_loss: 4.31
+09/03/2021 17:58:58 - INFO - MASTER - Epoch: 243, total numsteps: 3888 (0.16s), total_loss: 4.17
+09/03/2021 17:58:58 - INFO - MASTER - Epoch: 244, total numsteps: 3904 (0.15s), total_loss: 4.12
+09/03/2021 17:58:58 - INFO - MASTER - Epoch: 245, total numsteps: 3920 (0.14s), total_loss: 4.02
+09/03/2021 17:58:58 - INFO - MASTER - Epoch: 246, total numsteps: 3936 (0.14s), total_loss: 3.84
+09/03/2021 17:58:58 - INFO - MASTER - Epoch: 247, total numsteps: 3952 (0.12s), total_loss: 3.77
+09/03/2021 17:58:59 - INFO - MASTER - Epoch: 248, total numsteps: 3968 (0.12s), total_loss: 3.71
+09/03/2021 17:58:59 - INFO - MASTER - Epoch: 249, total numsteps: 3984 (0.13s), total_loss: 3.90
+09/03/2021 17:59:00 - INFO - MASTER - Saving models to storage/ju3_85181f6-073eb4c_vae_gmix_3/experiment1/seed1
+09/03/2021 17:59:00 - INFO - MASTER - Epoch: 250, total numsteps: 4000 (1.06s), total_loss: 3.76
+09/03/2021 17:59:00 - INFO - MASTER - Epoch: 251, total numsteps: 4016 (0.12s), total_loss: 3.91
+09/03/2021 17:59:00 - INFO - MASTER - Epoch: 252, total numsteps: 4032 (0.12s), total_loss: 3.87
+09/03/2021 17:59:00 - INFO - MASTER - Saving plots for visualising reconstruction and generation performance.
+09/03/2021 17:59:00 - INFO - MASTER - Epoch: 253, total numsteps: 4048 (0.12s), total_loss: 3.65
+09/03/2021 17:59:01 - INFO - MASTER - Epoch: 254, total numsteps: 4064 (0.13s), total_loss: 3.80
+09/03/2021 17:59:01 - INFO - MASTER - Epoch: 255, total numsteps: 4080 (0.13s), total_loss: 3.65
+09/03/2021 17:59:01 - INFO - MASTER - Epoch: 256, total numsteps: 4096 (0.14s), total_loss: 4.07
+09/03/2021 17:59:01 - INFO - MASTER - Epoch: 257, total numsteps: 4112 (0.14s), total_loss: 4.06
+09/03/2021 17:59:01 - INFO - MASTER - Epoch: 258, total numsteps: 4128 (0.14s), total_loss: 3.89
+09/03/2021 17:59:01 - INFO - MASTER - Epoch: 259, total numsteps: 4144 (0.13s), total_loss: 3.73
+09/03/2021 17:59:01 - INFO - MASTER - Epoch: 260, total numsteps: 4160 (0.13s), total_loss: 3.80
+09/03/2021 17:59:01 - INFO - MASTER - Epoch: 261, total numsteps: 4176 (0.14s), total_loss: 3.94
+09/03/2021 17:59:02 - INFO - MASTER - Epoch: 262, total numsteps: 4192 (0.13s), total_loss: 4.05
+09/03/2021 17:59:02 - INFO - MASTER - Epoch: 263, total numsteps: 4208 (0.14s), total_loss: 3.83
+09/03/2021 17:59:02 - INFO - MASTER - Epoch: 264, total numsteps: 4224 (0.13s), total_loss: 3.83
+09/03/2021 17:59:02 - INFO - MASTER - Epoch: 265, total numsteps: 4240 (0.13s), total_loss: 3.70
+09/03/2021 17:59:02 - INFO - MASTER - Epoch: 266, total numsteps: 4256 (0.13s), total_loss: 3.68
+09/03/2021 17:59:02 - INFO - MASTER - Epoch: 267, total numsteps: 4272 (0.12s), total_loss: 4.03
+09/03/2021 17:59:02 - INFO - MASTER - Epoch: 268, total numsteps: 4288 (0.12s), total_loss: 3.76
+09/03/2021 17:59:02 - INFO - MASTER - Epoch: 269, total numsteps: 4304 (0.12s), total_loss: 3.86
+09/03/2021 17:59:03 - INFO - MASTER - Epoch: 270, total numsteps: 4320 (0.12s), total_loss: 3.82
+09/03/2021 17:59:03 - INFO - MASTER - Epoch: 271, total numsteps: 4336 (0.12s), total_loss: 3.99
+09/03/2021 17:59:03 - INFO - MASTER - Epoch: 272, total numsteps: 4352 (0.13s), total_loss: 3.78
+09/03/2021 17:59:03 - INFO - MASTER - Epoch: 273, total numsteps: 4368 (0.12s), total_loss: 3.84
+09/03/2021 17:59:03 - INFO - MASTER - Epoch: 274, total numsteps: 4384 (0.12s), total_loss: 3.89
+09/03/2021 17:59:03 - INFO - MASTER - Epoch: 275, total numsteps: 4400 (0.13s), total_loss: 3.83
+09/03/2021 17:59:03 - INFO - MASTER - Epoch: 276, total numsteps: 4416 (0.12s), total_loss: 3.74
+09/03/2021 17:59:03 - INFO - MASTER - Epoch: 277, total numsteps: 4432 (0.12s), total_loss: 3.74
+09/03/2021 17:59:04 - INFO - MASTER - Epoch: 278, total numsteps: 4448 (0.12s), total_loss: 3.86
+09/03/2021 17:59:04 - INFO - MASTER - Epoch: 279, total numsteps: 4464 (0.13s), total_loss: 3.91
+09/03/2021 17:59:04 - INFO - MASTER - Epoch: 280, total numsteps: 4480 (0.14s), total_loss: 3.77
+09/03/2021 17:59:04 - INFO - MASTER - Epoch: 281, total numsteps: 4496 (0.11s), total_loss: 3.61
+09/03/2021 17:59:04 - INFO - MASTER - Epoch: 282, total numsteps: 4512 (0.12s), total_loss: 3.59
+09/03/2021 17:59:04 - INFO - MASTER - Epoch: 283, total numsteps: 4528 (0.12s), total_loss: 3.92
+09/03/2021 17:59:04 - INFO - MASTER - Epoch: 284, total numsteps: 4544 (0.12s), total_loss: 3.91
+09/03/2021 17:59:04 - INFO - MASTER - Epoch: 285, total numsteps: 4560 (0.13s), total_loss: 3.77
+09/03/2021 17:59:05 - INFO - MASTER - Epoch: 286, total numsteps: 4576 (0.11s), total_loss: 3.83
+09/03/2021 17:59:05 - INFO - MASTER - Epoch: 287, total numsteps: 4592 (0.12s), total_loss: 3.87
+09/03/2021 17:59:05 - INFO - MASTER - Epoch: 288, total numsteps: 4608 (0.13s), total_loss: 3.75
+09/03/2021 17:59:05 - INFO - MASTER - Epoch: 289, total numsteps: 4624 (0.13s), total_loss: 3.79
+09/03/2021 17:59:05 - INFO - MASTER - Epoch: 290, total numsteps: 4640 (0.12s), total_loss: 3.75
+09/03/2021 17:59:05 - INFO - MASTER - Epoch: 291, total numsteps: 4656 (0.12s), total_loss: 3.83
+09/03/2021 17:59:05 - INFO - MASTER - Epoch: 292, total numsteps: 4672 (0.12s), total_loss: 4.08
+09/03/2021 17:59:05 - INFO - MASTER - Epoch: 293, total numsteps: 4688 (0.12s), total_loss: 3.89
+09/03/2021 17:59:06 - INFO - MASTER - Epoch: 294, total numsteps: 4704 (0.11s), total_loss: 3.66
+09/03/2021 17:59:06 - INFO - MASTER - Epoch: 295, total numsteps: 4720 (0.12s), total_loss: 3.78
+09/03/2021 17:59:06 - INFO - MASTER - Epoch: 296, total numsteps: 4736 (0.12s), total_loss: 3.83
+09/03/2021 17:59:06 - INFO - MASTER - Epoch: 297, total numsteps: 4752 (0.12s), total_loss: 3.87
+09/03/2021 17:59:06 - INFO - MASTER - Epoch: 298, total numsteps: 4768 (0.12s), total_loss: 3.82
+09/03/2021 17:59:06 - INFO - MASTER - Epoch: 299, total numsteps: 4784 (0.12s), total_loss: 3.89
+09/03/2021 17:59:06 - INFO - MASTER - Epoch: 300, total numsteps: 4800 (0.12s), total_loss: 3.81
+09/03/2021 17:59:06 - INFO - MASTER - Epoch: 301, total numsteps: 4816 (0.12s), total_loss: 3.75
+09/03/2021 17:59:06 - INFO - MASTER - Epoch: 302, total numsteps: 4832 (0.12s), total_loss: 3.77
+09/03/2021 17:59:07 - INFO - MASTER - Epoch: 303, total numsteps: 4848 (0.13s), total_loss: 3.95
+09/03/2021 17:59:07 - INFO - MASTER - Epoch: 304, total numsteps: 4864 (0.12s), total_loss: 3.79
+09/03/2021 17:59:07 - INFO - MASTER - Epoch: 305, total numsteps: 4880 (0.12s), total_loss: 3.93
+09/03/2021 17:59:07 - INFO - MASTER - Epoch: 306, total numsteps: 4896 (0.13s), total_loss: 3.98
+09/03/2021 17:59:07 - INFO - MASTER - Epoch: 307, total numsteps: 4912 (0.12s), total_loss: 3.65
+09/03/2021 17:59:07 - INFO - MASTER - Epoch: 308, total numsteps: 4928 (0.12s), total_loss: 3.95
+09/03/2021 17:59:07 - INFO - MASTER - Epoch: 309, total numsteps: 4944 (0.11s), total_loss: 4.07
+09/03/2021 17:59:07 - INFO - MASTER - Epoch: 310, total numsteps: 4960 (0.11s), total_loss: 3.92
+09/03/2021 17:59:08 - INFO - MASTER - Epoch: 311, total numsteps: 4976 (0.13s), total_loss: 3.79
+09/03/2021 17:59:08 - INFO - MASTER - Epoch: 312, total numsteps: 4992 (0.14s), total_loss: 3.89
+09/03/2021 17:59:09 - INFO - MASTER - Saving models to storage/ju3_85181f6-073eb4c_vae_gmix_3/experiment1/seed1
+09/03/2021 17:59:10 - INFO - MASTER - Saving models to storage/ju3_85181f6-073eb4c_vae_gmix_3/experiment1/seed1
